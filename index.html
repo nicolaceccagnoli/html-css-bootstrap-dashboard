@@ -137,63 +137,211 @@
 
             <div class="container-fluid">
 
-                <!-- Inizio Bool Container -->
-                <div class="row bg-primary">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col-lg col-md-4 col-sm-12">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h1 class="align-middle fs-3 fw-light text-white d-inline ">
-                                            Boolean
-                                        </h1>
-                                        <span class="badge rounded-pill">Piano blaze</span>             
-                                    </div>
-                                    <div class="col">
-                                        <span class="badge rounded-pill"> 3 app</span>             
-                                        <span class="badge no-bg fs-6 rounded-pill">>>
-                                        </span>  
-                                        <span class="badge rounded-pill d-lg-none">+
-                                        </span>           
-                                        <span class="badge rounded-pill d-none d-lg-inline-block">Boolean mobile app</span>             
-                                        <span class="badge rounded-pill d-none d-lg-inline-block">Boolean web app</span>             
-                                        <span class="badge rounded-pill d-none d-lg-inline-block">Boolean blog app</span>             
+            <!-- Inizio Bool Container -->
+            <div class="row bg-primary text-white p-3">
+                <div class="col">
+                    <div class="row">
 
-                                    </div>
+                        <!-- Inizio Colonna Boolean -->
+                        <div class="col-lg col-md-4 col-sm-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="align-middle fs-3 fw-light d-inline ">
+                                        Boolean
+                                    </h1>
+                                    <span class="badge rounded-pill">Piano blaze
+                                    </span>             
+                                </div>
+                                <div class="col">
+                                    <span class="badge rounded-pill">
+                                            3 app
+                                        </span>             
+                                    <span class="badge no-bg fs-6 rounded-pill">
+                                        >>
+                                    </span>  
+                                    <span class="badge rounded-pill d-lg-none">
+                                        +
+                                    </span>           
+                                    <span class="badge rounded-pill d-none d-lg-inline-block">
+                                        Boolean mobile app
+                                    </span>             
+                                    <span class="badge rounded-pill d-none d-lg-inline-block">
+                                        Boolean web app
+                                    </span>             
+                                    <span class="badge rounded-pill d-none d-lg-inline-block">
+                                        Boolean blog app
+                                    </span>             
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12">
-                                Studenti
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 order-first order-md-last">
-                                Nuovo Studente
+                        </div>
+                        <!-- Fine Colonna Boolean -->
+
+                        <!-- Inizio Colonna Studenti -->
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    Studenti online negli ultimi 30 minuti
+                                </div>
+                                <div class="col fs-3">
+                                    125
+                                </div>
                             </div>
                         </div>
+                        <!-- Fine Colonna Studenti -->
+
+                        <!-- Inizio Colonna Nuovo Studente -->
+                        <div class="col-lg-3 col-md-4 col-sm-12 order-first order-md-last">
+                            Nuovo Studente
+                            <button class="btn border text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                +
+                            </button>
+
+                            <div class="offcanvas offcanvas-end my-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                    Inserisci un nuovo Studente
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <form class="offcanvas-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="name" class="form-label">
+                                                Nome
+                                            </label>
+                                            <input type="text" class="form-control" id="name" placeholder="Nome">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="surname" class="form-label">
+                                                Cognome
+                                            </label>
+                                            <input type="text" class="form-control" id="surname" placeholder="Cognome">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                        <label for="email" class="form-label">
+                                            Email
+                                        </label>
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="password" class="form-label">
+                                                Password
+                                            </label>
+                                            <input type="password" class="form-control" id="password" placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="email-address" class="form-label">
+                                                Indirizzo Email
+                                            </label>
+                                            <input type="email" class="form-control" id="email-address" placeholder="Indirizzo Email">
+                                            </div>
+                                            <div class="col-6">
+                                            <label for="password" class="form-label">
+                                                Password
+                                            </label>
+                                            <input type="password" class="form-control" id="password" placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="address" class="form-label">
+                                                Indirizzo
+                                            </label>
+                                            <input type="text" class="form-control" id="address" placeholder="Indirizzo">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="city" class="form-label">
+                                                Città
+                                            </label>
+                                            <input type="text" class="form-control" id="city" placeholder="Città">
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="state" class="form-label">
+                                                Stato
+                                            </label>
+                                            <select name="state" id="state" aria-selected="true" class="h-50 rounded border-opacity-10">
+                                                <option value="1">
+                                                Italia
+                                                </option>
+                                                <option value="2">
+                                                Wakanda
+                                                </option>
+                                                <option value="3">
+                                                God Valley
+                                                </option>
+                                        </select> 
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="cap" class="form-label">
+                                                CAP
+                                            </label>
+                                            <input type="number" class="form-control" id="cap" placeholder="CAP">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="file" class="form-label">
+                                                Foto
+                                            </label>
+                                            <input type="file" class="form-control" id="file" placeholder="Nessun File Selezionato">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input type="checkbox" id="city">
+                                            <label for="city" class="form-label">
+                                                Seleziona per proseguire
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto">
+                                        <button type="button" class="btn btn-primary">
+                                            Salva
+                                        </button>          
+                                        </div>
+                                        <div class="col-auto">
+                                        <button type="reset" value="reset" class="btn btn-warning">
+                                            Svuota
+                                        </button>     
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Fine Colonna Nuovo Studente -->
                     </div>
                 </div>
-                <!-- Fine Bool Container -->
+            </div>
+            <!-- Fine Bool Container -->
 
-                <!-- Inizio Card Container -->
-                <div class="container-fluid p-0">
-                    <div class="row">
-                        <div class="col-12 col-lg-8">
-                            <div class="bg-success">
-                                CARD 1
-                            </div>
-                            <div class="bg-warning">
-                                CARD 2
-                            </div>
+            <!-- Inizio Card Container -->
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="bg-success">
+                            CARD 1
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="bg-danger">
-                                CARD 3
-                            </div>
-                            <div class="bg-primary-subtle">
-                                CARD 4
-                            </div>
+                        <div class="bg-warning">
+                            CARD 2
                         </div>
-                </div>
-                <!-- Fine Card Container -->
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="bg-danger">
+                            CARD 3
+                        </div>
+                        <div class="bg-primary-subtle">
+                            CARD 4
+                        </div>
+                    </div>
+            </div>
+            <!-- Fine Card Container -->
             </div>
 
         </div>

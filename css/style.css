@@ -34,6 +34,7 @@ html{
 :root {
     --bs-dark-rgb: rgba(229, 229, 229, 1);
     --aside-color: #152A40;
+    --bg-bage: rgba(22,91,186);
 }
 
 /* 
@@ -55,6 +56,10 @@ header {
     MAIN
 */
 
+/* 
+    ASIDE
+*/
+
 aside {
     height: calc(100vh - 50px);
 }
@@ -63,3 +68,24 @@ aside {
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--aside-color);
 }
+
+/* 
+    BOOL CONTAINER
+*/
+
+.badge {
+    background-color: #165BBA;
+}
+
+.no-bg {
+    background: none;
+}
+
+/* 
+    OFFCANVAS
+*/
+
+.my-offcanvas.show{
+    width: 40%;
+} 
+
