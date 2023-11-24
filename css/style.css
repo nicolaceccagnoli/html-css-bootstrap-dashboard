@@ -84,11 +84,6 @@ aside {
 /* 
     OFFCANVAS
 */
-
-.my-offcanvas.show{
-    width: 40%;
-} 
-
 th > img {
     max-width: 30px;
 }
@@ -96,6 +91,11 @@ th > img {
 /* 
     TABELLA
 */
+
+.table-container {
+    height: calc(100vh - 50px);
+    overflow: auto;
+}
 
 caption{
     background-color: #F7F7F7;
@@ -105,10 +105,6 @@ caption h5, .caption-faq {
     color: black;
 }
 
-.table-container {
-    height: calc(100vh - 50px);
-    overflow: auto;
-}
 /* 
     ACCORDION
 */
@@ -116,3 +112,17 @@ caption h5, .caption-faq {
 .caption-faq {
     border-top: 15px;
 }
+
+/* Tablet */
+
+@media (max-width: 991px){ 
+    .my-offcanvas.show {
+        width: 100%;
+    }
+}
+
+ /* Desktop */
+
+ @media (min-width: 992px) { .my-offcanvas.show {
+    width: 45%;
+} }
