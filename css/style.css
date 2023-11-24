@@ -31,10 +31,25 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --bs-dark-rgb: rgba(229, 229, 229, 1)
+}
+
+/* 
+    HEADER
+*/
+
 header {
     height: 50px;
 }
 
+.my-navbar {
+    background-color: #E5E5E5;
+}
+
+.my-bell {
+    color: #FF8F00;
+}
 /* 
     MAIN
 */

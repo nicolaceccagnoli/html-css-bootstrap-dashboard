@@ -25,13 +25,19 @@
 
                 <!-- Inizio Colonna Logo -->
                 <div class="col-auto">
-                    LOGO
+                    <img src="img/logo.svg" alt="">
                 </div>
                 <!-- Fine Colonna Logo -->
 
                 <!-- Inizio Colonna Search Bar -->
                 <div class="col">
-                    SEARCH BAR
+                    <form action="#">
+                        <div class="input-group">
+                            <span class="my-navbar border-end-0 input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control border-start-0 my-navbar" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Prova a cercare: Lezioni di Laravel" aria-describedby="basic-addon1">
+                        </div>    
+                    </form>
+            
                 </div>
                 <!-- Fine Colonna Search Bar -->
 
@@ -39,20 +45,20 @@
                 <div class="col-auto">
                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                         <div class="d-none d-lg-block">
-                            <button type="button" class="btn text-white">
+                            <button type="button" class="btn">
                                 <i class="bi bi-list-ul"></i>                        
                             </button>
-                            <button type="button" class="btn text-white">
+                            <button type="button" class="btn">
                                 <i class="bi bi-question-circle-fill"></i>                        
                             </button>
-                            <button type="button" class="btn text-white">
+                            <button type="button" class="btn">
                                 <i class="bi bi-three-dots-vertical"></i>                        
                             </button>
                         </div>
     
                          <!-- Inizio Bottone Dropdown -->
                         <div class="btn-group" role="group">
-                            <button type="button" class="btn text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn my-bell" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="bi bi-bell-fill"></i>                        
                             </button>
                             <ul class="dropdown-menu" style="">
@@ -151,7 +157,7 @@
                 <!-- Inizio Card Container -->
                 <div class="container-fluid p-0">
                     <div class="row">
-                        <div class="col-lg-12 col-md-8">
+                        <div class="col-12 col-lg-8">
                             <div class="bg-success">
                                 CARD 1
                             </div>
@@ -159,7 +165,7 @@
                                 CARD 2
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-4">
+                        <div class="col-12 col-lg-4">
                             <div class="bg-danger">
                                 CARD 3
                             </div>
