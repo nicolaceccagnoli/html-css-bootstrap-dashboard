@@ -18,15 +18,24 @@
 </head>
 <body>
     <!-- Inizio Header Principale -->
-    <header>
-        <div class="container-fluid bg-dark text-white">
-            <div class="row">
+    <header class="sticky-top bg-dark vw-100">
+        <div class="text-white h-100">
+            
+            <div class="row align-items-center h-100 m-0">
+
+                <!-- Inizio Colonna Logo -->
                 <div class="col-auto">
                     LOGO
                 </div>
+                <!-- Fine Colonna Logo -->
+
+                <!-- Inizio Colonna Search Bar -->
                 <div class="col">
                     SEARCH BAR
                 </div>
+                <!-- Fine Colonna Search Bar -->
+
+                <!-- Inizio Colonna Bottoni -->
                 <div class="col-auto">
                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                         <div class="d-none d-lg-block">
@@ -41,6 +50,7 @@
                             </button>
                         </div>
     
+                         <!-- Inizio Bottone Dropdown -->
                         <div class="btn-group" role="group">
                             <button type="button" class="btn text-white" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="bi bi-bell-fill"></i>                        
@@ -59,10 +69,12 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
+                        </div>                             <!-- Inizio Bottone Dropdown -->
 
+                    </div>
                 </div>
+                <!-- Fine Colonna Bottoni -->
+
             </div>
         </div>
     </header>
@@ -70,19 +82,64 @@
 
     <!-- Inizio Main -->
     <main>
-        <div class="container">
-            MAIN
+
+        <div class="container-fluid d-flex p-0">
+
+            <!-- Inizio Aside -->
+            <aside class="bg-secondary p-2">
+                <ul class="d-flex flex-column justify-content-between h-100 ps-0">
+                    <div class="menu">
+                        <li class="list-group text-center p-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-house-door-fill"></i>
+                                <span class="d-none d-lg-inline-block">
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group text-center p-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-bar-chart-fill"></i>
+                                <span class="d-none d-lg-inline-block">
+                                    Stats
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group text-center p-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-reception-4"></i>               <span class="d-none d-lg-inline-block">
+                                    Signal
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="settings">
+                        <li class="list-group text-center p-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-gear-fill"></i>
+                                <span class="d-none d-lg-inline-block">
+                                    Admins
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+                    
+            </aside>
+            <!-- Fine Aside -->
+
+            <div class="row">
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+            </div>
+
         </div>
+
+
     </main>
     <!-- Fine Main -->
-
-    <!-- Inizio Footer Principale -->
-    <footer>
-        <div class="container">
-            FOOTER
-        </div>
-    </footer>
-    <!-- Fine Footer Principale -->
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

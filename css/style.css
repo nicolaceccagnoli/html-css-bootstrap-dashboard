@@ -30,3 +30,15 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    height: 50px;
+}
+
+/* 
+    MAIN
+*/
+
+aside {
+    height: calc(100vh - 50px);
+}
