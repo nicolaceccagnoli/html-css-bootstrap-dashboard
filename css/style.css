@@ -32,7 +32,8 @@ html{
 }
 
 :root {
-    --bs-dark-rgb: rgba(229, 229, 229, 1)
+    --bs-dark-rgb: rgba(229, 229, 229, 1);
+    --aside-color: #152A40;
 }
 
 /* 
@@ -56,4 +57,9 @@ header {
 
 aside {
     height: calc(100vh - 50px);
+}
+
+.back-img{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--aside-color);
 }
