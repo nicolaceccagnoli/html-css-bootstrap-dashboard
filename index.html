@@ -204,21 +204,21 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <form class="offcanvas-body">
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col-6">
                                             <label for="name" class="form-label">
                                                 Nome
                                             </label>
-                                            <input type="text" class="form-control" id="name" placeholder="Nome">
+                                            <input type="text" class="form-control" id="name" placeholder="Nome" required>
                                         </div>
                                         <div class="col-6">
                                             <label for="surname" class="form-label">
                                                 Cognome
                                             </label>
-                                            <input type="text" class="form-control" id="surname" placeholder="Cognome">
+                                            <input type="text" class="form-control" id="surname" placeholder="Cognome" required>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col-6">
                                         <label for="email" class="form-label">
                                             Email
@@ -229,43 +229,43 @@
                                             <label for="password" class="form-label">
                                                 Password
                                             </label>
-                                            <input type="password" class="form-control" id="password" placeholder="Password">
+                                            <input type="password" class="form-control" id="password" placeholder="Password" required>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col-6">
                                             <label for="email-address" class="form-label">
                                                 Indirizzo Email
                                             </label>
-                                            <input type="email" class="form-control" id="email-address" placeholder="Indirizzo Email">
+                                            <input type="email" class="form-control" id="email-address" placeholder="Indirizzo Email" required>
                                             </div>
                                             <div class="col-6">
                                             <label for="password" class="form-label">
                                                 Password
                                             </label>
-                                            <input type="password" class="form-control" id="password" placeholder="Password">
+                                            <input type="password" class="form-control" id="password" placeholder="Password" required>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col">
                                             <label for="address" class="form-label">
                                                 Indirizzo
                                             </label>
-                                            <input type="text" class="form-control" id="address" placeholder="Indirizzo">
+                                            <input type="text" class="form-control" id="address" placeholder="Indirizzo required">
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col-6">
                                             <label for="city" class="form-label">
                                                 Città
                                             </label>
-                                            <input type="text" class="form-control" id="city" placeholder="Città">
+                                            <input type="text" class="form-control" id="city" placeholder="Città" required>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-4 d-flex flex-column">
                                             <label for="state" class="form-label">
                                                 Stato
                                             </label>
-                                            <select name="state" id="state" aria-selected="true" class="h-50 rounded border-opacity-10">
+                                            <select name="state" id="state" aria-selected="true" class="h-50 rounded border-opacity-75" required>
                                                 <option value="1">
                                                 Italia
                                                 </option>
@@ -281,26 +281,26 @@
                                             <label for="cap" class="form-label">
                                                 CAP
                                             </label>
-                                            <input type="number" class="form-control" id="cap" placeholder="CAP">
+                                            <input type="number" class="form-control" id="cap" placeholder="CAP" required>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col">
                                             <label for="file" class="form-label">
                                                 Foto
                                             </label>
-                                            <input type="file" class="form-control" id="file" placeholder="Nessun File Selezionato">
+                                            <input type="file" class="form-control" id="file" placeholder="Nessun File Selezionato" required>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col-12">
-                                            <input type="checkbox" id="city">
+                                            <input type="checkbox" id="city" required>
                                             <label for="city" class="form-label">
                                                 Seleziona per proseguire
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row py-3">
                                         <div class="col-auto">
                                         <button type="button" class="btn btn-primary">
                                             Salva
