@@ -61,7 +61,7 @@
                             <button type="button" class="btn my-bell" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="bi bi-bell-fill"></i>                        
                             </button>
-                            <ul class="dropdown-menu" style="">
+                            <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#">Profilo
                                     </a>
@@ -196,6 +196,7 @@
                                 +
                             </button>
 
+                            <!-- Inizio Offcanvas -->
                             <div class="offcanvas offcanvas-end my-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasRightLabel">
@@ -205,13 +206,18 @@
                                 </div>
                                 <form class="offcanvas-body">
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Inserisci Nome -->
                                         <div class="col-md-6 col-12">
                                             <label for="name" class="form-label">
                                                 Nome
                                             </label>
                                             <input type="text" class="form-control" id="name" placeholder="Nome" required>
                                         </div>
+
+                                        <!-- Inserisci Cognome -->
                                         <div class="col-md-6 col-12">
+
                                             <label for="surname" class="form-label">
                                                 Cognome
                                             </label>
@@ -219,12 +225,16 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Inserisci Email -->
                                         <div class="col-md-6 col-12">
-                                        <label for="email" class="form-label">
-                                            Email
-                                        </label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                            <label for="email" class="form-label">
+                                                Email
+                                            </label>
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
                                         </div>
+
+                                        <!-- Inserisci Password -->
                                         <div class="col-md-6 col-12">
                                             <label for="password" class="form-label">
                                                 Password
@@ -233,13 +243,17 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Inserisci Indirizzo Email -->
                                         <div class="col-md-6 col-12">
                                             <label for="email-address" class="form-label">
                                                 Indirizzo Email
                                             </label>
                                             <input type="email" class="form-control" id="email-address" placeholder="Indirizzo Email" required>
-                                            </div>
-                                            <div class="col-md-6 col-12">
+                                        </div>
+
+                                        <!-- Inserisci Password -->
+                                        <div class="col-md-6 col-12">
                                             <label for="password" class="form-label">
                                                 Password
                                             </label>
@@ -247,6 +261,8 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Inserisci Indirizzo -->
                                         <div class="col">
                                             <label for="address" class="form-label">
                                                 Indirizzo
@@ -255,12 +271,16 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
-                                        <div class="col-md-6 col-12">
+
+                                        <!-- Inserisci Città -->
+                                        <div class="col-lg-5 col-md-6 col-12">
                                             <label for="city" class="form-label">
                                                 Città
                                             </label>
                                             <input type="text" class="form-control" id="city" placeholder="Città" required>
                                         </div>
+
+                                        <!-- Inserisci Stato -->
                                         <div class="col-4 d-flex flex-column">
                                             <label for="state" class="form-label">
                                                 Stato
@@ -275,9 +295,11 @@
                                                 <option value="3">
                                                 God Valley
                                                 </option>
-                                        </select> 
+                                            </select> 
                                         </div>
-                                        <div class="col-md-2 col-12">
+
+                                        <!-- Inserisci CAP -->
+                                        <div class="col-lg-3 col-2">
                                             <label for="cap" class="form-label">
                                                 CAP
                                             </label>
@@ -285,6 +307,8 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Inserisci Foto -->
                                         <div class="col">
                                             <label for="file" class="form-label">
                                                 Foto
@@ -293,6 +317,8 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Checkbox -->
                                         <div class="col-12">
                                             <input type="checkbox" id="city" required>
                                             <label for="city" class="form-label">
@@ -301,19 +327,25 @@
                                         </div>
                                     </div>
                                     <div class="row py-md-3 py-1">
+
+                                        <!-- Bottone Salva -->
                                         <div class="col-auto">
-                                        <button type="button" class="btn btn-primary">
-                                            Salva
-                                        </button>          
+                                            <button type="button" class="btn btn-primary">
+                                                Salva
+                                            </button>          
                                         </div>
+
+                                        <!-- Bottone Svuota -->
                                         <div class="col-auto">
-                                        <button type="reset" value="reset" class="btn btn-warning">
-                                            Svuota
-                                        </button>     
+                                            <button type="reset" value="reset" class="btn btn-warning">
+                                                Svuota
+                                            </button>     
                                         </div>
                                     </div>
                                 </form>
                             </div>
+                            <!-- Fine Offcanvas -->
+
                         </div>
                         <!-- Fine Colonna Nuovo Studente -->
                     </div>
@@ -330,11 +362,15 @@
                             <div class="table-responsive">
                                 <table class="table">
                                     <table class="table caption-top border text-center">
+
+                                        <!-- Titolo Tabella -->
                                         <caption class="border rounded-top-2">
                                             <h5 class="p-2 fs-4">
                                                 Prossime Classi
                                             </h5>
                                         </caption>
+
+                                        <!-- Testata Tabella -->
                                         <thead>
                                           <tr>
                                             <th class="col-6 text-start">
@@ -346,6 +382,8 @@
                                             <th>Azioni</th>
                                           </tr>
                                         </thead>
+
+                                        <!-- Inizio Corpo Tabella -->
                                         <tbody>
                                           <tr>
                                             <th class="text-start">
@@ -565,6 +603,8 @@
                                           </tr>
 
                                     </tbody>
+                                    <!-- Fine Corpo Tabella -->
+
                                 </table>                
                             </div>
                             <!-- Fine Tabella -->
