@@ -34,7 +34,7 @@ html{
 :root {
     --bs-dark-rgb: rgba(229, 229, 229, 1);
     --aside-color: #152A40;
-    --bg-bage: rgba(22,91,186);
+    --bg-badge: rgba(22,91,186);
 }
 
 /* 
@@ -73,7 +73,7 @@ aside {
     BOOL CONTAINER
 */
 
-.badge {
+.bool-container .badge {
     background-color: #165BBA;
 }
 
@@ -89,3 +89,18 @@ aside {
     width: 40%;
 } 
 
+th > img {
+    max-width: 30px;
+}
+
+/* 
+    TABELLA
+*/
+
+caption{
+    background-color: #F7F7F7;
+}
+
+caption h5 {
+    color: black;
+}
