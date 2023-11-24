@@ -101,6 +101,18 @@ caption{
     background-color: #F7F7F7;
 }
 
-caption h5 {
+caption h5, .caption-faq {
     color: black;
+}
+
+.table-container {
+    height: calc(100vh - 50px);
+    overflow: auto;
+}
+/* 
+    ACCORDION
+*/
+
+.caption-faq {
+    border-top: 15px;
 }
