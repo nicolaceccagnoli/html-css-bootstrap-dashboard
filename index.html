@@ -12,6 +12,9 @@
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -105,7 +108,7 @@
                         </li>
                         <li class="list-group text-center p-2">
                             <a href="#" class="text-white text-decoration-none">
-                                <i class="bi bi-bar-chart-fill"></i>
+                                <i class="fa-solid fa-chart-simple"></i>                                
                                 <span class="d-none d-lg-inline-block">
                                     Stats
                                 </span>
@@ -113,7 +116,7 @@
                         </li>
                         <li class="list-group text-center p-2">
                             <a href="#" class="text-white text-decoration-none">
-                                <i class="bi bi-reception-4"></i>   
+                                <i class="fa-solid fa-signal"></i>                                
                                 <span class="d-none d-lg-inline-block">
                                     Signal
                                 </span>
@@ -156,8 +159,8 @@
                                     <span class="badge rounded-pill">
                                             3 app
                                         </span>             
-                                    <span class="badge no-bg fs-6 rounded-pill">
-                                        >>
+                                    <span class="no-bg fs-6">
+                                        <i class="fa-solid fa-angles-right"></i>
                                     </span>  
                                     <span class="badge rounded-pill d-lg-none">
                                         +
@@ -599,7 +602,6 @@
                         </div>
 
                         <!-- Inizio Accordion -->
-                        <div class="">
                             <div class="card accordion accordion-flush border" id="accordionFlushExample">
                                 <div class="card-header">
                                     <h5 class="p-2 fs-4">
@@ -642,18 +644,44 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>          
-                        </div>
+                            </div>  
+                            <!-- Fine Accordion -->
+        
                     </div>
-                    <!-- Fine Accordion -->
 
                     <div class="col-12 col-lg-4 pt-3">
-                        <div class="bg-danger">
-                            CARD 3
-                        </div>
-                        <div class="bg-primary-subtle">
-                            CARD 4
-                        </div>
+                            <!-- Inizio To Do List -->
+                            <div class="card">
+                                <div class="card-header">
+                                  <h5 class="p-2 fs-4">
+                                    Todo
+                                  </h5>
+                                </div>
+                                <ul class="list-group p-3">
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                      <label class="form-check-label" for="firstCheckbox">
+                                        Kickoff nuove classi
+                                      </label>
+                                    </li>
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                      <label class="form-check-label" for="secondCheckbox">
+                                        Lezione su Bootstrap 5 in classe #75
+                                      </label>
+                                    </li>
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                      <label class="form-check-label" for="thirdCheckbox">
+                                        Controllare username github studenti
+                                      </label>
+                                    </li>
+                                </ul> 
+                            </div>
+                            <!-- Fine To Do List -->
+                            <div class="bg-primary-subtle">
+                                CARD 4
+                            </div>
                     </div>
             </div>
             <!-- Fine Table Container -->
