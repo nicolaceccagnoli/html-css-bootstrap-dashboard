@@ -114,11 +114,13 @@ caption h5, .caption-faq {
 }
 
 /* Mobile */
-@media (min-width: 576px){ 
-    /* tr :nth-child(2), 
-    tr :nth-child(3) {
+@media (max-width: 767px){ 
+    thead tr :nth-child(2), 
+    thead tr :nth-child(3),
+    tbody tr td:nth-of-type(2), 
+    tbody tr td:nth-of-type(3){
         display: none;
-    } */
+    }
 }
 
 
