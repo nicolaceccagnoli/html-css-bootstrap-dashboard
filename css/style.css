@@ -35,6 +35,7 @@ html{
     --bs-dark-rgb: rgba(229, 229, 229, 1);
     --aside-color: #152A40;
     --bg-badge: rgba(22,91,186);
+    --bs-btn-hover-color: black;
 }
 
 /* 
@@ -49,9 +50,10 @@ header {
     background-color: #E5E5E5;
 }
 
-.my-bell {
+.my-bell, .my-bell:hover {
     color: #FF8F00;
 }
+
 /* 
     MAIN
 */
@@ -69,6 +71,15 @@ aside {
     background-color: var(--aside-color);
 }
 
+.menu a:hover, .settings a:hover {
+    background-color: rgba(190, 190, 190, 0.5);
+}
+
+.fa-signal {
+    width: 11px;
+    margin-right: 5px;
+}
+
 /* 
     BOOL CONTAINER
 */
@@ -81,16 +92,29 @@ aside {
     background: none;
 }
 
+.badge:hover {
+    cursor: pointer;
+    background-color: #0e3c7c;
+}
+
 /* 
     OFFCANVAS
 */
-td > img {
-    max-width: 30px;
+
+button[data-bs-toggle="offcanvas"]:hover {
+    background-color: white;
+}
+
+button[data-bs-toggle="offcanvas"]:hover i{
+    color:#165BBA;
 }
 
 /* 
     TABELLA
 */
+td > img {
+    max-width: 30px;
+}
 
 .table-container {
     height: calc(100vh - 50px);
@@ -109,7 +133,10 @@ caption h5, .caption-faq {
     color: black;
 }
 
-
+tr:hover, tr:hover > * {
+    cursor: pointer;
+    background-color: #F8F9FA;
+}
 /* 
     ACCORDION
 */
@@ -126,6 +153,12 @@ caption h5, .caption-faq {
     tbody tr td:nth-of-type(3){
         display: none;
     }
+
+    .my-bool-row {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
 }
 
 
