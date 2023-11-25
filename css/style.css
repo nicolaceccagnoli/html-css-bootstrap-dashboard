@@ -84,7 +84,7 @@ aside {
 /* 
     OFFCANVAS
 */
-th > img {
+td > img {
     max-width: 30px;
 }
 
@@ -97,6 +97,10 @@ th > img {
     overflow: auto;
 }
 
+.my-table-container {
+    background-color: #F8F9FA;
+}
+
 caption{
     background-color: #F7F7F7;
 }
@@ -104,6 +108,7 @@ caption{
 caption h5, .caption-faq {
     color: black;
 }
+
 
 /* 
     ACCORDION
