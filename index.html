@@ -93,6 +93,7 @@
     <!-- Inizio Main -->
     <main>
 
+        <!-- Inizio Container Principale -->
         <div class="container-fluid d-flex p-0">
 
             <!-- Inizio Aside -->
@@ -134,471 +135,514 @@
                         </li>
                     </div>
                 </ul>
-                    
             </aside>
             <!-- Fine Aside -->
 
+
+            <!-- Inizio Container Secondario -->
             <div class="container-fluid table-container">
 
-            <!-- Inizio Bool Container -->
-            <div class="row bg-primary text-white p-3">
-                <div class="col">
-                    <div class="row">
+                <!-- Inizio 1^ Row -->
+                <div class="row bg-primary text-white p-3">
 
-                        <!-- Inizio Colonna Boolean -->
-                        <div class="bool-container col-lg col-md-4 col-sm-12">
-                            <div class="row my-bool-row">
-                                <div class="col-12">
-                                    <h1 class="align-middle fs-3 fw-medium d-inline">
-                                        Boolean
-                                    </h1>
-                                    <span class="badge rounded-pill">
-                                        Piano blaze
-                                    </span>             
-                                </div>
-                                <div class="col">
-                                    <span class="badge rounded-pill">
-                                            3 app
+                    <!-- Inizio Colonna Bool Container -->
+                    <div class="col">
+
+                        <!-- Inizio Row Bool Container -->
+                        <div class="row">
+
+                            <!-- Inizio Colonna Boolean -->
+                            <div class="bool-container col-lg col-md-4 col-sm-12">
+                                <div class="row my-bool-row">
+                                    <div class="col-12">
+                                        <h1 class="align-middle fs-3 fw-medium d-inline">
+                                            Boolean
+                                        </h1>
+                                        <span class="badge rounded-pill">
+                                            Piano blaze
                                         </span>             
-                                    <span class="no-bg fs-6">
-                                        <i class="fa-solid fa-angles-right"></i>
-                                    </span>  
-                                    <span class="badge rounded-pill d-lg-none">
-                                        +
-                                    </span>           
-                                    <span class="badge rounded-pill d-none d-lg-inline-block">
-                                        Boolean mobile app
-                                    </span>             
-                                    <span class="badge rounded-pill d-none d-lg-inline-block">
-                                        Boolean web app
-                                    </span>             
-                                    <span class="badge rounded-pill d-none d-lg-inline-block">
-                                        Boolean blog app
-                                    </span>             
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fine Colonna Boolean -->
-
-                        <!-- Inizio Colonna Studenti -->
-                        <div class="col-lg-3 col-md-4 col-sm-12">
-                            <div class="row my-bool-row">
-                                <div class="col-12">
-                                    Studenti online negli ultimi 30 minuti
-                                </div>
-                                <div class="col fs-3">
-                                    125
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fine Colonna Studenti -->
-
-                        <!-- Inizio Colonna Nuovo Studente -->
-                        <div class="my-bool-row col-lg-3 col-md-4 col-sm-12 order-first order-md-last">
-                            Nuovo Studente
-                            <button class="btn border text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
-
-                            <!-- Inizio Offcanvas -->
-                            <div class="offcanvas offcanvas-end my-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">
-                                    Inserisci un nuovo Studente
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <form class="offcanvas-body">
-                                    <div class="row py-md-3 py-1">
-
-                                        <!-- Inserisci Nome -->
-                                        <div class="col-md-6 col-12">
-                                            <label for="name" class="form-label">
-                                                Nome
-                                            </label>
-                                            <input type="text" class="form-control" id="name" placeholder="Nome" required>
-                                        </div>
-
-                                        <!-- Inserisci Cognome -->
-                                        <div class="col-md-6 col-12">
-
-                                            <label for="surname" class="form-label">
-                                                Cognome
-                                            </label>
-                                            <input type="text" class="form-control" id="surname" placeholder="Cognome" required>
-                                        </div>
                                     </div>
-                                    <div class="row py-md-3 py-1">
+                                    <div class="col">
+                                        <span class="badge rounded-pill">
+                                                3 app
+                                            </span>             
+                                        <span class="no-bg fs-6">
+                                            <i class="fa-solid fa-angles-right"></i>
+                                        </span>  
+                                        <span class="badge rounded-pill d-lg-none">
+                                            +
+                                        </span>           
+                                        <span class="badge rounded-pill d-none d-lg-inline-block">
+                                            Boolean mobile app
+                                        </span>             
+                                        <span class="badge rounded-pill d-none d-lg-inline-block">
+                                            Boolean web app
+                                        </span>             
+                                        <span class="badge rounded-pill d-none d-lg-inline-block">
+                                            Boolean blog app
+                                        </span>             
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fine Colonna Boolean -->
 
-                                        <!-- Inserisci Email -->
-                                        <div class="col-md-6 col-12">
-                                            <label for="email" class="form-label">
-                                                Email
-                                            </label>
-                                            <div class="input-group">
-                                                <span class="input-group-text" id="basic-addon1">
-                                                    @
-                                                </span>
-                                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            <!-- Inizio Colonna Studenti -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="row my-bool-row">
+                                    <div class="col-12">
+                                        Studenti online negli ultimi 30 minuti
+                                    </div>
+                                    <div class="col fs-3">
+                                        125
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fine Colonna Studenti -->
+
+                            <!-- Inizio Colonna Nuovo Studente -->
+                            <div class="my-bool-row col-lg-3 col-md-4 col-sm-12 order-first order-md-last">
+                                Nuovo Studente
+                                <button class="btn border text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+
+                                <!-- Inizio Offcanvas -->
+                                <div class="offcanvas offcanvas-end my-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                            Inserisci un nuovo Studente
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+
+                                    <!-- Inizio Form -->
+                                    <form class="offcanvas-body">
+
+                                        <!-- Inizio 1^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
+
+                                            <!-- Inserisci Nome -->
+                                            <div class="col-md-6 col-12">
+                                                <label for="name" class="form-label">
+                                                    Nome
+                                                </label>
+                                                <input type="text" minlength="2" maxlength="15" class="form-control" id="name" placeholder="Nome" required>
+                                            </div>
+
+                                            <!-- Inserisci Cognome -->
+                                            <div class="col-md-6 col-12">
+
+                                                <label for="surname" class="form-label">
+                                                    Cognome
+                                                </label>
+                                                <input type="text" minlength="2" maxlength="15" class="form-control" id="surname" placeholder="Cognome" required>
                                             </div>
                                         </div>
+                                        <!-- Fine 1^ Row-Offcanvas -->
 
-                                        <!-- Inserisci Password -->
-                                        <div class="col-md-6 col-12">
-                                            <label for="password" class="form-label">
-                                                Password
-                                            </label>
-                                            <input type="password" class="form-control" id="password" placeholder="Password" required>
-                                        </div>
-                                    </div>
-                                    <div class="row py-md-3 py-1">
+                                        <!-- Inizio 2^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
 
-                                        <!-- Inserisci Indirizzo -->
-                                        <div class="col">
-                                            <label for="address" class="form-label">
-                                                Indirizzo
-                                            </label>
-                                            <input type="text" class="form-control" id="address" placeholder="Indirizzo" required>
-                                        </div>
-                                    </div>
-                                    <div class="row py-md-3 py-1">
+                                            <!-- Inserisci Email -->
+                                            <div class="col-md-6 col-12">
+                                                <label for="email" class="form-label">
+                                                    Email
+                                                </label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon1">
+                                                        @
+                                                    </span>
+                                                    <input type="email" minlength="10" maxlength="25" pattern="[A-Za-z]{3}" class="form-control" id="email" placeholder="Email" required>
+                                                </div>
+                                            </div>
 
-                                        <!-- Inserisci Città -->
-                                        <div class="col-lg-5 col-md-6 col-12">
-                                            <label for="city" class="form-label">
-                                                Città
-                                            </label>
-                                            <input type="text" class="form-control" id="city" placeholder="Città" required>
+                                            <!-- Inserisci Password -->
+                                            <div class="col-md-6 col-12">
+                                                <label for="password" class="form-label">
+                                                    Password
+                                                </label>
+                                                <input type="password" minlength="8" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form-control" id="password" placeholder="Password" required>
+                                            </div>
                                         </div>
+                                        <!-- Fine 2^ Row-Offcanvas -->
 
-                                        <!-- Inserisci Stato -->
-                                        <div class="col-4 d-flex flex-column">
-                                            <label for="state" class="form-label">
-                                                Stato
-                                            </label>
-                                            <select name="state" id="state" aria-selected="true" class="h-50 rounded border-opacity-75" required>
-                                                <option value="1">
-                                                Italia
-                                                </option>
-                                                <option value="2">
-                                                Wakanda
-                                                </option>
-                                                <option value="3">
-                                                God Valley
-                                                </option>
-                                            </select> 
-                                        </div>
+                                        <!-- Inizio 3^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
 
-                                        <!-- Inserisci CAP -->
-                                        <div class="col-lg-3 col-2">
-                                            <label for="cap" class="form-label">
-                                                CAP
-                                            </label>
-                                            <input type="number" class="form-control" id="cap" placeholder="CAP" required>
+                                            <!-- Inserisci Indirizzo -->
+                                            <div class="col">
+                                                <label for="address" class="form-label">
+                                                    Indirizzo
+                                                </label>
+                                                <input type="text" minlength="5" maxlength="25" class="form-control" id="address" placeholder="Indirizzo" required>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row py-md-3 py-1">
+                                        <!-- Fine 3^ Row-Offcanvas -->
 
-                                        <!-- Inserisci Foto -->
-                                        <div class="col">
-                                            <label for="file" class="form-label">
-                                                Foto
-                                            </label>
-                                            <input type="file" class="form-control" id="file" placeholder="Nessun File Selezionato" required>
-                                        </div>
-                                    </div>
-                                    <div class="row py-md-3 py-1">
+                                        <!-- Inizio 4^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
 
-                                        <!-- Checkbox -->
-                                        <div class="col-12">
-                                            <input type="checkbox" id="city" required>
-                                            <label for="city" class="form-label">
-                                                Seleziona per proseguire
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="row py-md-3 py-1">
+                                            <!-- Inserisci Città -->
+                                            <div class="col-lg-5 col-md-6 col-12">
+                                                <label for="city" class="form-label">
+                                                    Città
+                                                </label>
+                                                <input type="text" minlength="3" maxlength="12"  class="form-control" id="city" placeholder="Città" required>
+                                            </div>
 
-                                        <!-- Bottone Salva -->
-                                        <div class="col-auto">
-                                            <button type="submit" class="btn btn-primary offcanvas-body">
-                                                Salva
-                                            </button>          
-                                        </div>
+                                            <!-- Inserisci Stato -->
+                                            <div class="col-4 d-flex flex-column">
+                                                <label for="state" class="form-label">
+                                                    Stato
+                                                </label>
+                                                <select name="state" id="state" aria-selected="true" class="h-50 rounded border-opacity-75" required>
+                                                    <option value="0" name="No Option" selected disabled>
+                                                        Scegli un opzione
+                                                    </option>
+                                                    <option name="Italia" value="1">
+                                                    Italia
+                                                    </option>
+                                                    <option name="Wakanda" value="2">
+                                                    Wakanda
+                                                    </option>
+                                                    <option name="God Valley" value="3">
+                                                    God Valley
+                                                    </option>
+                                                </select> 
+                                            </div>
 
-                                        <!-- Bottone Svuota -->
-                                        <div class="col-auto">
-                                            <button type="reset" value="reset" class="btn btn-warning offcanvas-body">
-                                                Svuota
-                                            </button>     
+                                            <!-- Inserisci CAP -->
+                                            <div class="col-lg-3 col-2">
+                                                <label for="cap" class="form-label">
+                                                    CAP
+                                                </label>
+                                                <input type="number" min="3" max="6" class="form-control" id="cap" placeholder="CAP" required>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
+                                        <!-- Fine 4^ Row-Offcanvas -->
+
+                                        <!-- Inizio 5^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
+
+                                            <!-- Inserisci Foto -->
+                                            <div class="col">
+                                                <label for="file" class="form-label">
+                                                    Foto
+                                                </label>
+                                                <input type="file" accept="application/pdf" class="form-control" id="file" placeholder="Nessun File Selezionato" required>
+                                            </div>
+                                        </div>
+                                        <!-- Fine 5^ Row-Offcanvas -->
+
+                                        <!-- Inizio 6^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
+
+                                            <!-- Checkbox -->
+                                            <div class="col-12">
+                                                <input type="checkbox" id="city" required>
+                                                <label for="city" class="form-label">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- Inizio 6^ Row-Offcanvas -->
+
+                                        <!-- Inizio 7^ Row-Offcanvas -->
+                                        <div class="row py-md-3 py-1">
+
+                                            <!-- Bottone Salva -->
+                                            <div class="col-auto">
+                                                <button type="submit" class="btn btn-primary offcanvas-body">
+                                                    Salva
+                                                </button>          
+                                            </div>
+
+                                            <!-- Bottone Svuota -->
+                                            <div class="col-auto">
+                                                <button type="reset" value="reset" class="btn btn-warning offcanvas-body">
+                                                    Svuota
+                                                </button>     
+                                            </div>
+                                        </div>
+                                        <!-- Fine 7^ Row-Offcanvas -->
+
+                                    </form>
+                                    <!-- Fine Form -->
+
+                                </div>
+                                <!-- Fine Offcanvas -->
+
                             </div>
-                            <!-- Fine Offcanvas -->
+                            <!-- Fine Colonna Nuovo Studente -->
 
                         </div>
-                        <!-- Fine Colonna Nuovo Studente -->
+                        <!-- Fine Row Bool Container -->
+
                     </div>
+                    <!-- Fine Colonna Bool Container -->
+
                 </div>
-            </div>
-            <!-- Fine Bool Container -->
+                <!-- Fine 1^ Row -->
 
-            <!-- Inizio Table Container -->
-            <div class="container-fluid p-0 my-table-container">
-                <div class="row">
-                    <div class="col-12 col-lg-8 pt-3">
-                        
-                        <!-- Inizio Tabella -->
-                        <div class="table-responsive">
-                            <table class="table caption-top border text-center">
+                <!-- Inizio Container Tabelle -->
+                <div class="container-fluid p-0 my-table-container">
 
-                                <!-- Titolo Tabella -->
-                                <caption class="border rounded-top-2">
-                                    <h5 class="ps-2 fs-4">
-                                        Prossime Classi
-                                    </h5>
-                                </caption>
+                    <!-- Inizio 2^ Row  -->
+                    <div class="row">
 
-                                <!-- Testata Tabella -->
-                                <thead>
-                                    <tr>
-                                    <th class="col-6 text-start">
-                                        Nome
-                                    </th>
-                                    <th>Data Inizio</th>
-                                    <th>ROI</th>
-                                    <th>Stato</th>
-                                    <th>Azioni</th>
-                                    </tr>
-                                </thead>
+                        <!-- Inizio Colonna Sx Container Tabelle-->
+                        <div class="col-12 col-lg-8 pt-3">
+                            
+                            <!-- Inizio Tabella Prossime Classi -->
+                            <div class="table-responsive">
+                                <table class="table caption-top border text-center">
 
-                                <!-- Inizio Corpo Tabella -->
-                                <tbody>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 75
-                                        </span>
-                                    </td>
-                                    <td>15 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 76
-                                        </span>
-                                    </td>
-                                    <td>16 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 77
-                                        </span>
-                                    </td>
-                                    <td>17 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-warning rounded px-1 text-white">process
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 78
-                                        </span>
-                                    </td>
-                                    <td>18 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 79
-                                        </span>
-                                    </td>
-                                    <td>19 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-danger rounded px-1 text-white">failed
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 80
-                                        </span>
-                                    </td>
-                                    <td>20 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 81
-                                        </span>
-                                    </td>
-                                    <td>21 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-danger rounded px-1 text-white">failed
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td class="text-start">
-                                        <img src="img/class-avatar.jpg" alt="">
-                                        <span>
-                                            Classe 82
-                                        </span>
-                                    </td>
-                                    <td>22 Feb 2021
-                                    </td>
-                                    <td>20%</td>
-                                    <td>
-                                        <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-pencil"></i>
-                                            </button>
-                                        </span>
-                                        <span>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <i class="bi bi-trash3-fill"></i>
-                                            </button>
-                                        </span>
-                                    </td>
-                                    </tr>
-                                </tbody>
-                                <!-- Fine Corpo Tabella -->
+                                    <!-- Titolo Tabella -->
+                                    <caption class="border rounded-top-2">
+                                        <h5 class="ps-2 fs-4">
+                                            Prossime Classi
+                                        </h5>
+                                    </caption>
 
-                            </table>                
-                        </div>
-                        <!-- Fine Tabella -->
+                                    <!-- Testata Tabella -->
+                                    <thead>
+                                        <tr>
+                                        <th class="col-6 text-start">
+                                            Nome
+                                        </th>
+                                        <th>Data Inizio</th>
+                                        <th>ROI</th>
+                                        <th>Stato</th>
+                                        <th>Azioni</th>
+                                        </tr>
+                                    </thead>
 
-                        <!-- Inizio Accordion -->
+                                    <!-- Inizio Corpo Tabella -->
+                                    <tbody>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 75
+                                            </span>
+                                        </td>
+                                        <td>15 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 76
+                                            </span>
+                                        </td>
+                                        <td>16 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 77
+                                            </span>
+                                        </td>
+                                        <td>17 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-warning rounded px-1 text-white">process
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 78
+                                            </span>
+                                        </td>
+                                        <td>18 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 79
+                                            </span>
+                                        </td>
+                                        <td>19 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-danger rounded px-1 text-white">failed
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 80
+                                            </span>
+                                        </td>
+                                        <td>20 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 81
+                                            </span>
+                                        </td>
+                                        <td>21 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-danger rounded px-1 text-white">failed
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                        <td class="text-start">
+                                            <img src="img/class-avatar.jpg" alt="">
+                                            <span>
+                                                Classe 82
+                                            </span>
+                                        </td>
+                                        <td>22 Feb 2021
+                                        </td>
+                                        <td>20%</td>
+                                        <td>
+                                            <span class="badgetext-bg-success bg-success rounded px-1 text-white">Done
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil"></i>
+                                                </button>
+                                            </span>
+                                            <span>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </span>
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                    <!-- Fine Corpo Tabella -->
+
+                                </table>                
+                            </div>
+                            <!-- Fine Tabella Prossime Classi-->
+
+                            <!-- Inizio Accordion -->
                             <div class="card accordion accordion-flush" id="accordionFlushExample">
                                 <div class="card-header">
                                     <h5 class="fs-4">
@@ -606,110 +650,124 @@
                                     </h5>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                    <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Come aggiungere un nuovo studente?
+                                        Come aggiungere un nuovo studente?
                                     </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         Clicca sul + in alto nella sezione blu.
                                     </div>
-                                  </div>
+                                    </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                    <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      Come posso accedere alle informazioni del mio account?
+                                        Come posso accedere alle informazioni del mio account?
                                     </button>
-                                  </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         Clicca sull'icona della campanella.
                                     </div>
-                                  </div>
+                                    </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                    <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                      Posso usare questa dashboard su mobile?
+                                        Posso usare questa dashboard su mobile?
                                     </button>
-                                  </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         Chiedi a @Nik.
                                     </div>
-                                  </div>
+                                    </div>
                                 </div>
                             </div>  
                             <!-- Fine Accordion -->
-        
-                    </div>
+            
+                        </div>
+                        <!-- Fine Colonna Sx -->
 
-                    <div class="col-12 col-lg-4 pt-3">
+                        <!-- Inizio Colonna Dx -->
+                        <div class="col-12 col-lg-4 pt-3">
+
                             <!-- Inizio To Do List -->
                             <div class="card mb-4">
                                 <div class="card-header">
-                                  <h5 class="fs-4">
+                                    <h5 class="fs-4">
                                     Todo
-                                  </h5>
+                                    </h5>
                                 </div>
                                 <ul class="list-group p-3">
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                                      <label class="form-check-label" for="firstCheckbox">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">
                                         Kickoff nuove classi
-                                      </label>
+                                        </label>
                                     </li>
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                                      <label class="form-check-label" for="secondCheckbox">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">
                                         Lezione su Bootstrap 5 in classe #75
-                                      </label>
+                                        </label>
                                     </li>
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                                      <label class="form-check-label" for="thirdCheckbox">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">
                                         Controllare username github studenti
-                                      </label>
+                                        </label>
                                     </li>
                                 </ul> 
                             </div>
                             <!-- Fine To Do List -->
+
+                            <!-- Inizio Card Stats -->
                             <div class="card p-2">
                                 <div class="card">
                                     <ul class="list-group list-group-flush">
-                                      <li class="list-group-item">
+                                        <li class="list-group-item">
                                         <img src="img/stats.jpeg" alt="stats" class="w-100">
                                         <h5>
                                             Utenti Attivi
                                         </h5>
                                         Lista degli utenti attivi in piattaforma nell'ultimo mese
-                                      </li>
-                                      <li class="list-group-item">
+                                        </li>
+                                        <li class="list-group-item">
                                         Gennaio: 1200
-                                      </li>
-                                      <li class="list-group-item">
+                                        </li>
+                                        <li class="list-group-item">
                                         Febbraio: 800
-                                      </li>
-                                      <li class="list-group-item">
+                                        </li>
+                                        <li class="list-group-item">
                                         Marzo: 1500
-                                      </li>
-                                      <li class="list-group-item">
+                                        </li>
+                                        <li class="list-group-item">
                                         <a href="#">
                                             Visualizza report approfondito
                                         </a>
-                                      </li>
+                                        </li>
                                     </ul>
                                 </div>                              
-                            </div>                    
+                            </div> 
+                            <!-- Fine Card Stats -->
+                    
                         </div>
+                        <!-- Inizio Colonna Dx -->
+
+                    </div>
+                    <!-- Fine 2^ Row -->
+
+                </div>
+                <!-- Fine Container Tabelle -->
+
             </div>
-            <!-- Fine Table Container -->
-            </div>
+            <!-- Fine Container Secondario -->
 
         </div>
-
+        <!-- Fine Container Principale -->
 
     </main>
     <!-- Fine Main -->

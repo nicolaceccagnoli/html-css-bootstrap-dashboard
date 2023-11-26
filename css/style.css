@@ -133,7 +133,7 @@ caption h5, .caption-faq {
     color: black;
 }
 
-tr:hover, tr:hover > * {
+tbody tr:hover > * {
     cursor: pointer;
     background-color: #F8F9FA;
 }
