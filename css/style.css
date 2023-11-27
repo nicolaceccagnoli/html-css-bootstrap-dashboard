@@ -29,9 +29,11 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
+    --header-height: 50px;
     --bs-dark-rgb: rgba(229, 229, 229, 1);
     --aside-color: #152A40;
     --bg-badge: rgba(22,91,186);
@@ -43,7 +45,7 @@ html{
 */
 
 header {
-    height: 50px;
+    height: var(--header-height);
 }
 
 .my-navbar {
@@ -63,7 +65,7 @@ header {
 */
 
 aside {
-    height: calc(100vh - 50px);
+    height: calc(100vh - var(--header-height));
 }
 
 .back-img{
@@ -71,13 +73,10 @@ aside {
     background-color: var(--aside-color);
 }
 
-.menu a:hover, .settings a:hover {
+.menu li:hover,
+.settings li:hover{
     background-color: rgba(190, 190, 190, 0.5);
-}
-
-.fa-signal {
-    width: 11px;
-    margin-right: 5px;
+    cursor: pointer;
 }
 
 /* 
@@ -158,9 +157,9 @@ tbody tr:hover > * {
         padding-top: 8px;
         padding-bottom: 8px;
     }
+    
 
 }
-
 
 /* Tablet */
 
@@ -172,6 +171,11 @@ tbody tr:hover > * {
 
  /* Desktop */
 
- @media (min-width: 992px) { .my-offcanvas.show {
+ @media (min-width: 992px) { 
+    .my-offcanvas.show {
     width: 45%;
-} }
+    } 
+    aside {
+        width: 150px;
+    }
+}
